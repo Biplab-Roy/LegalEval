@@ -4,6 +4,34 @@ This project aims to build an automated Court Judgement Predictor that hat could
 
 ---
 
+## Installations ## 
+
+This project uses **Python 3.x**, so a suitable python version (>=3.6) is advisable.
+
+The project uses the following frameworks:- 
+<ul>
+  <li> pandas </li>
+  <li> pytorch </li>
+  <li> simpletransformers </li>
+  <li> sklearn </li>
+</ul>
+
+## Local Machine installation ##
+If you do not have a working installation of these packages, the easiest way to install is using `pip`
+
+`pip install <package name >`
+
+or `conda`:
+
+`conda install <package name>`
+
+## Project Motivation ## 
+
+India is a highly populated country and suffers from the problem of high case pendency in various levels of judiciary. As on December 31, 2022, the total pending cases in district and subordinate courts was pegged at over 4.32 crore and over 69,000 cases are pending in the Supreme Court, while there is a backlog of more than 59 lakh cases in 25 high courts (https://main.sci.gov.in/). The total pending cases come to over 4.92
+crore. 
+
+In these circumstances, AI-based legal applications can play a vital role in alleviating the stress on the judicial system by providing assistance of automated judgements and other legal services efficiently. Basic AI-blocks such as a Court Judgment predictor may prove to be immensely helpful in developing the above-mentioned applications for expediting the judicial process. Apart from a court judgment predictor, other AI-based legal applications that can be developed include document review and analysis, contract review and analysis, legal research and analytics, and case management systems. These applications can help lawyers and judges with time-consuming tasks such as document review and research, allowing them to focus on more complex legal work.
+
 ## **Challenges**
 This problem is different from common ML-classification problems because of several hardles that are intrinsic to legal domain:
 
